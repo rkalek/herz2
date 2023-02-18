@@ -23,7 +23,7 @@ header #header-bar > .row {
 
     padding: 1px #c0c0c0;
 
-    background: linear-gradient( to bottom, #000000, #ffffff);
+    background: #ffffff;
     border-radius: 12px;
     border-bottom: 1px solid var(--color-1); border-right: 1px solid var(--color-1) 
 
@@ -70,7 +70,7 @@ padding:0 0 .4em
 
 html {
 
-   background: linear-gradient(to bottom, #080808, #000000);
+   background: #080808;
 
   height: auto !important;
 
