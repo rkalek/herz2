@@ -33,7 +33,7 @@ header #header-bar > .row {
 /* 배경 */
 
 body {
- font-size: 20px;
+ font-size: 14px;
 }
 
 header:before {
@@ -245,6 +245,7 @@ header #right-search-form>#right-search-btn {
 }
 .frame>.frame,
 #article-list {
+	font-size: 15px;
 	background: white;
 	border: 2px solid var(--color-4);
 }
