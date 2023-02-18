@@ -21,7 +21,7 @@
 
 header #header-bar > .row {
 
-    padding: 1px #c0c0c0;
+    padding: 2px #c0c0c0;
 
     background: #ffffff;
     border-radius: 12px;
@@ -393,7 +393,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 #board-info #viewers-area {
 
-    color: #fff17a; /* 접속자 수 글씨 색 */
+    color: #c0c0c0; /* 접속자 수 글씨 색 */
 
 }
 
