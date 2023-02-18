@@ -15,64 +15,13 @@
   --color-5: #9d9d9d; /* */
 
 }
-
-
-/* 배너 */
-
-header #header-bar > .row {
-
-    padding: 2px #9d9d9d;
-
-    background: #ffffff;
-    border-radius: 12px;
-    border-bottom: 1px solid var(--color-1); border-right: 1px solid var(--color-1) 
-
-}
-
-
-/* 배경 */
-
-body {
- font-size: 14px;
-}
-header {
-
-padding:0 0 .4em
-
-}
-html {
-
-   background: linear-gradient(to bottom, #080808, #080808);
-
-  height: auto !important;
-
-}
-body {
-   
-background: transparent;
-
-animation: snow 20s linear infinite;
-
- background-image:url(),
- url(),
- url();
-}
-@keyframes snow {
-
-0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
-
-100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
-
-}
-
-
 header:before {
 
 display:block;
 
 width:100%;
 
-height:32px;
+height:250px;
 
 background:url() no-repeat #080808;
 
@@ -91,21 +40,77 @@ margin-bottom:15px
 
 
 
+header {
+
+padding:0 0 .4em
+
+}
+
+
+
+
+/* 배너 */
+
+header #header-bar > .row {
+
+    padding: 2px #9d9d9d;
+
+    background: linear-gradient( to bottom, #9d9d9d, #9d9d9d);
+    border-radius: 12px;
+    border-bottom: 1px solid var(--color-1); border-right: 1px solid var(--color-1) 
+
+}
+
+
+/* 배경 */
+
+body {
+ font-size: 14px;
+}
+
+
+
+html {
+
+   background: linear-gradient(to bottom, #080808, #080808);
+
+  height: auto !important;
+
+}
+
+
+body {
+   
+background: transparent;
+
+animation: snow 20s linear infinite;
+
+ background-image:url('https://rkalek.github.io/herz2/black.png'),
+ url("https://rkalek.github.io/herz2/black.png"),
+ url("https://rkalek.github.io/herz2/black.png");
+}
+@keyframes snow {
+
+0% {background-position: 0px 0px, 200px 0px, 0px 0px;}
+
+100% {background-position: 500px 1000px, 400px 400px, 1px 1px;}
+
+}
+
 
 
 @font-face {
-    font-family: 'TmonMonsori';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/TmonMonsori.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+     font-family: 'S-CoreDream-3Light';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
 }
 
 
 
 *{
-    font-family: 'TmonMonsori';
+    font-family: 'S-CoreDream-3Light';
 }
-
 
 /* 로고 */
 
@@ -119,7 +124,7 @@ header .row>div:nth-child(1)>a {
 
     height: 50px;
 
-    background: url(https://rkalek.github.io/herz/hedoong.png) no-repeat; /* url(로고 경로 입력) */
+    background: url(https://rkalek.github.io/herz2/hedoong2.png) no-repeat; /* url(로고 경로 입력) */
 
     background-size: auto 50px;
 
@@ -152,7 +157,7 @@ input[type=radio],
 
 {
 
-cursor: url("") 0 0, auto !important;
+cursor: url() 0 0, auto !important;
 
 }
 
@@ -184,7 +189,7 @@ cursor: url("") 0 0, auto !important;
 
 a {
 
-cursor: url("") 0 0, auto !important;
+cursor: url() 0 0, auto !important;
 
 }
 
@@ -202,7 +207,7 @@ input[type='text']
 
 {
 
-cursor: url("") 0 0, auto !important;
+cursor: url() 0 0, auto !important;
 
 }
 
@@ -248,8 +253,9 @@ header #right-search-form>#right-search-btn {
 
 #board-info>img#board-info-profile-img {
 	width: 80px;
+	border-radius: 10px;
 	/*animation: waterdrop 3s ease-in-out infinite both alternate;*/
-	border: 2px solid var(--color-4);
+	border: 2px solid var(--color-3);
 	transition: 0.2s;
 }
 #board-info>img#board-info-profile-img:hover {
@@ -258,7 +264,6 @@ header #right-search-form>#right-search-btn {
 }
 .frame>.frame,
 #article-list {
-	font-size: 15px;
 	background: white;
 	border: 2px solid var(--color-4);
 }
@@ -267,7 +272,7 @@ header #right-search-form>#right-search-btn {
 #board-info {
 	margin: 0;
 	height: auto;
-	background: #FFFFFF;
+	background: #d9d9d9;
 	border: 2px solid var(--color-4);
 	margin-bottom: 0.5em;
 }
@@ -283,7 +288,7 @@ header #right-search-form>#right-search-btn {
 
 header #header-bar>.row {
 
-    border-top: 1px solid #9d9d9d !important; /* 광고 배너 테두리 색 */
+    border-top: 1px solid #d9d9d9 !important; /* 광고 배너 테두리 색 */
 
     border: 1px solid #ffffff; /* 광고 배너 테두리 색 */
 
@@ -297,7 +302,7 @@ header #header-bar>.row {
 
 header #header-bar #header-top-notice strong.notice-badge {
 
-    background: #000000; /* 광고 배너 광고 뱃지 배경 색상 */
+    background: #080808; /* 광고 배너 광고 뱃지 배경 색상 */
 
 }
 
@@ -309,9 +314,9 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 #main .menu-wrapper {
 
-    border: 3px solid #9d9d9d; /* 좌측 배너 테두리 색 */
+    border: 1px solid #9d9d9d; /* 좌측 배너 테두리 색 */
 
-    border-top: none !important;
+    border-top: 1px !important;
     border-radius: 15px;
 }
 
@@ -332,7 +337,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 #main .menu-wrapper>.header {
 
-    background: #000000; /* 좌측 배너 제목 배경 색 */
+    background: #080808; /* 좌측 배너 제목 배경 색 */
 
     border-radius: 15px 15px 0 0;
 
@@ -346,7 +351,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 #main .menu-wrapper .spacer {
 
-    background: #000000;
+    background: #080808;
 
 }
 
@@ -372,7 +377,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 	 border-top: none !important;
     border-radius: 2px #9d9d9d;
 
-   /*  border-top: 3px solid #000000 !important; */ /* 메인 배너 테두리 */
+   /*  border-top: 3px solid #080808 !important; */ /* 메인 배너 테두리 */
 
  /*   border: 2px solid #9d9d9d; */ /* 메인 배너 테두리 */
 
@@ -386,7 +391,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 #board-info #viewers-area {
 
-    color: #9d9d9d; /* 접속자 수 글씨 색 */
+    color: #7b7b7b; /* 접속자 수 글씨 색 */
 
 }
 
@@ -438,7 +443,7 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 #article-list>.article-list-row>.item>.list-header>span {
 
-    background-color: #000000; /* 글 추천 수 배경 색 */
+    background-color: #080808; /* 글 추천 수 배경 색 */
 
 }
 
