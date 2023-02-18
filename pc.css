@@ -35,6 +35,36 @@ header #header-bar > .row {
 body {
  font-size: 14px;
 }
+header {
+
+padding:0 0 .4em
+
+}
+html {
+
+   background: linear-gradient(to bottom, #080808, #080808);
+
+  height: auto !important;
+
+}
+body {
+   
+background: transparent;
+
+animation: snow 20s linear infinite;
+
+ background-image:url(),
+ url(),
+ url();
+}
+@keyframes snow {
+
+0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+
+100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+
+}
+
 
 header:before {
 
@@ -56,23 +86,6 @@ padding:0;
 
 content:"";
 margin-bottom:15px
-
-}
-
-
-
-header {
-
-padding:0 0 .4em
-
-}
-
-
-html {
-
-   background: #080808;
-
-  height: auto !important;
 
 }
 
